@@ -80,7 +80,7 @@ body {
 .cards {
     display: flex;
     justify-content: space-between;
-    padding: 0 300px;
+    padding: 0 300px 100px;
     flex-wrap: wrap;
     row-gap: 30px;
 }
@@ -109,3 +109,20 @@ body {
     font-weight: 900;
     color: #1F2937;
 }
+
+.quotation{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+    padding: 100px 300px;
+}
+
+.quotation strong {
+    font-weight: 900;
+    display: block;
+    text-align: end;
+    font-size: 18px;
+}
+
