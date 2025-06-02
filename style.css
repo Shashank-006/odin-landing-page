@@ -66,7 +66,7 @@ body {
     min-width: 200px;
 }
 
-.hero button {
+button {
     background-color: #3882F6;
     border: 0;
     padding: 5px 30px;
@@ -126,3 +126,27 @@ body {
     font-size: 18px;
 }
 
+.call-to-action {
+    display: flex;
+    padding: 40px 120px;
+    margin: 100px 300px;
+    background-color: #3882F6;
+    gap: 100px;
+    border-radius: 10px;
+    min-width: fit-content
+}
+
+.call-to-action .left {
+    color: #F9FAF8;
+}
+
+.call-to-action h3 {
+    margin-bottom: 2px;
+}
+
+.call-to-action button {
+    border: 2px solid #F9FAF8;
+    flex-shrink: 0;
+    height: 50px;
+    align-self: center;
+}
